@@ -1,0 +1,10 @@
+{
+	"AWSEBDockerrunVersion" : "1",
+	"Image" : {
+		"Name" : "uskithub/unwp:latest"
+	},
+	"Ports" : [
+		{ "ContainerPort" : "80" },
+		{ "ContainerPort" : "22" }
+	]
+}

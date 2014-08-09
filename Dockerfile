@@ -39,3 +39,5 @@ RUN chmod 600 /home/aws/.ssh/authorized_keys
 RUN echo "aws  ALL=(ALL)  NOPASSWD:ALL" >> /etc/sudoers.d/aws
 
 EXPOSE 80 22
+
+CMD ["nginx"]
